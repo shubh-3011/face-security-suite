@@ -1,0 +1,113 @@
+/* Face Security Suite - dark theme */
+
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #e2e8f0;
+}
+
+.tab-pane {
+    -fx-background-color: #0f172a;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #111827;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #cbd5e1;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #f8fafc;
+}
+
+.card {
+    -fx-background-color: #1e293b;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #334155;
+    -fx-border-width: 1;
+    -fx-padding: 14;
+}
+
+.card-heading {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #94a3b8;
+}
+
+.label {
+    -fx-text-fill: #e2e8f0;
+}
+
+.button {
+    -fx-background-radius: 6;
+    -fx-padding: 6 14;
+    -fx-text-fill: #f8fafc;
+    -fx-background-color: #334155;
+}
+
+.button:hover {
+    -fx-background-color: #475569;
+}
+
+.button.primary {
+    -fx-background-color: #2563eb;
+}
+
+.button.primary:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.button.secondary {
+    -fx-background-color: #0f766e;
+}
+
+.button.secondary:hover {
+    -fx-background-color: #0d9488;
+}
+
+.text-field, .combo-box, .text-area {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #e2e8f0;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.table-view {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #e2e8f0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #111827;
+    -fx-text-fill: #f8fafc;
+}
+
+.table-row-cell {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #e2e8f0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #243044;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2563eb;
+}
